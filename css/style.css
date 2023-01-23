@@ -59,6 +59,10 @@
     border: dashed 1px black;
 }
 
+main .section_container:nth-child(even) {
+    background-color: lightgrey;
+}
+
 
 
 /* debug */
