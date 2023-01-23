@@ -37,10 +37,11 @@
     height: 300px;
     justify-content: center;
     align-items: center;
+    padding: 20px 0px;
 }
 
 .section_debug {
-    height: 80%;
+    height: 100%;
     width: 60%;
     border: dashed 1px black;
 }
@@ -63,6 +64,20 @@ main .section_container:nth-child(even) {
     background-color: lightgrey;
 }
 
+.section_container_last_debug {
+    height: 500px;
+    background-color: lightgrey;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.last_section_debug {
+    height: 100%;
+    background-color: gold;
+    width: 60%;
+    border: dashed 1px black;
+}
 
 
 /* debug */
